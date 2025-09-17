@@ -1,0 +1,187 @@
+body {
+    background-color: #f5e1c8;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c3002f;
+    font-size: 125pt;
+    ;
+    margin: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #c3002f;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c3002f;
+    font-size: 50px;
+    border: 1px solid #c3002f;
+    border-radius: 100pt;
+    padding: 5px 10px;
+    display: block;
+    width: fit-content;
+    margin: 50px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f9d579;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    font-style: oblique;
+    padding: 30pt;
+    border-radius: 100px;
+    background-color: #c3002ee3;
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f9d579;
+    font-size: 35px;
+    border: 1px solid #f9d579;
+    border-radius: 100pt;
+    padding: 5px 10px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    color: #c3002f;
+    font-size: 15pt;
+    border: 1px solid #c3002f;
+    border-radius: 100pt;
+    padding: 1px 4px;
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+p2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: #daa520;
+}
+
+.sweets {
+    width: 960px;
+    height: 540px;
+    border: 2px solid #daa520;
+    outline: 2px solid #daa520;
+    outline-offset: 10px;
+    border-radius: 10pt;
+    padding: 10pt;
+    margin: 20px auto;
+}
+
+.EA {
+    color: #daa520;
+}
+
+p1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c3002f;
+    font-size: 30pt;
+    line-height: 65px;
+}
+
+p3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40pt;
+    line-height: 100px;
+}
+
+.ends {
+    color: #c3002f;
+    font-weight: bold;
+}
+
+.emp {
+    border-bottom: 2px solid;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.flower {
+    color: #c3002f;
+    ;
+    font-size: pt;
+    ;
+    padding: 8px 4px;
+    display: inline;
+    width: fit-content;
+    margin: auto;
+}
+
+.thaitea {
+    width: 960px;
+    height: 640px;
+    border: 2px double #c3002f;
+    border-radius: 30pt;
+    padding: 20px;
+}
+
+.drinkinfo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: #daa520;
+    line-height: 50px;
+}
+
+.drinkname {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #c3002f;
+}
+
+.price {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: #1e3a8a;
+}
+
+.pro {
+    width: 1440px;
+    height: 960px;
+    border: 10px double #daa520;
+    border-radius: 30pt;
+    padding: 20px;
+}
+
+.ctinf {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f9d579;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.os {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ctu {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #f9d579;
+}
