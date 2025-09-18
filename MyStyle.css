@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     color: #c3002f;
     font-size: 100pt;
     ;
@@ -243,8 +243,8 @@ a {
 .picsize3 {
     padding: 20px;
     outline-offset: 10px;
-    width: 572px;
-    height: 860px;
+    width: 457px;
+    height: 688px;
     border-radius: 75px;
     border: 2px solid#c3002f;
 }
@@ -253,16 +253,17 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     line-height: 1.5;
+
     color: #c3002f;
-    border: 2px solid #c3002f;
-    border-radius: 75px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .ad3 {
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
+    table-layout: fixed;
+    width: 1500pt;
+    height: 200pt;
+    margin-left: auto;
+    margin-right: auto;
     table-layout: fixed;
     width: 1500pt;
     height: 200pt;
@@ -271,4 +272,25 @@ a {
 .prom {
     width: 650pt;
     height: 200pt;
+}
+
+.priced1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1e3a8a;
+}
+
+.priced2 {
+    text-align: left ;
+    padding: 30pt;
+}
+
+.priced3 {
+    text-align: right;
+}
+
+.emptext {
+    font-weight: bold;
+    font-size: 30pt;
 }
