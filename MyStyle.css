@@ -247,7 +247,7 @@ a {
     width: 365px;
     height: 550px;
     border-radius: 75px;
-    border: 2px solid#c3002f;
+    border: 1px solid#c3002f;
 }
 
 .picname2 {
@@ -281,10 +281,12 @@ a {
 .priced2 {
     text-align: left ;
     padding: 30pt;
+    font-weight: bold;
 }
 
 .priced3 {
     text-align: right;
+    font-weight: bold;
 }
 
 .emptext {
