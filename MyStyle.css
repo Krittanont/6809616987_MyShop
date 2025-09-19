@@ -6,21 +6,21 @@ body {
 }
 
 h1 {
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #c3002f;
-    font-size: 100pt;
-    ;
+    font-size: 75pt;
     margin: 10px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
     border-bottom: 4px solid #c3002f;
+    border-radius: 25px;
     text-align: center;
-    padding: 50px 50px;
+    padding: 20px 20px;
 }
 
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #c3002f;
-    font-size: 50px;
+    font-size: 40px;
     border: 1px solid #c3002f;
     border-radius: 100pt;
     padding: 5px 10px;
@@ -33,7 +33,7 @@ h2 {
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #f9d579;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
     font-style: oblique;
     padding: 30pt;
@@ -44,7 +44,7 @@ h3 {
 h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #f9d579;
-    font-size: 35px;
+    font-size: 25px;
     border: 1px solid #f9d579;
     border-radius: 100pt;
     padding: 5px 10px;
@@ -89,13 +89,13 @@ p2 {
 p1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #c3002f;
-    font-size: 30pt;
+    font-size: 25pt;
     line-height: 65px;
 }
 
 p3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40pt;
+    font-size: 25pt;
     line-height: 100px;
 }
 
@@ -122,8 +122,8 @@ p3 {
 }
 
 .thaitea {
-    width: 960px;
-    height: 640px;
+    width: 720px;
+    height: 480px;
     border: 2px double #c3002f;
     border-radius: 30pt;
     padding: 20px;
@@ -131,14 +131,14 @@ p3 {
 
 .drinkinfo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
+    font-size: 30px;
     color: #daa520;
     line-height: 50px;
 }
 
 .drinkname {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #c3002f;
 }
 
@@ -180,6 +180,7 @@ p3 {
     align-items: center;
     display: flex;
     justify-content: center;
+
 }
 
 a {
@@ -189,7 +190,7 @@ a {
 .sad {
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 35px;
     background-color: #c3002f;
     border: 2px solid #c3002f; 
     border-radius: 100px;
@@ -206,15 +207,15 @@ a {
 
 .picsize1 {
     padding: 45px;
-    width: 448px ;
-    height: 673px ;
+    width: 358px ;
+    height: 538px ;
     border-radius: 100px;
 }
 
 .picname1 {
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 30px;
     color:#f5e1c8;
     background-color: #c3002f;
     border: 2px solid #c3002f;
@@ -234,8 +235,8 @@ a {
     padding: 20px;
     outline: 2px solid #c3002f;
     outline-offset: 10px;
-    width: 750px ;
-    height: 562px ;
+    width: 600px ;
+    height: 450px ;
     border-radius: 75px;
     border: 2px solid#c3002f;
 }
@@ -243,15 +244,15 @@ a {
 .picsize3 {
     padding: 20px;
     outline-offset: 10px;
-    width: 457px;
-    height: 688px;
+    width: 365px;
+    height: 550px;
     border-radius: 75px;
     border: 2px solid#c3002f;
 }
 
 .picname2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
 
     color: #c3002f;
@@ -260,13 +261,9 @@ a {
 
 .ad3 {
     table-layout: fixed;
-    width: 1500pt;
-    height: 200pt;
+
     margin-left: auto;
     margin-right: auto;
-    table-layout: fixed;
-    width: 1500pt;
-    height: 200pt;
 }
 
 .prom {
@@ -292,5 +289,5 @@ a {
 
 .emptext {
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 30px;
 }
