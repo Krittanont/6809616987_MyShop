@@ -24,7 +24,8 @@ body {
 .nav a {
     color: #f9d579;
     font-family: "Philosopher", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bolder;
     text-decoration: none;
     margin-left: 1.9rem;
     position: relative;
@@ -40,7 +41,7 @@ body {
 }
 
 .logo a {
-    color: #f9d579; text-decoration: none;
+    color: #f9d579; text-decoration: none; 
 }
 
 h1 {
@@ -67,7 +68,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Philosopher", sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #f9d579;
     font-size: 20px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -333,10 +334,4 @@ a {
 .emptext {
     font-weight: bold;
     font-size: 23px;
-}
-
-footer {
-    position: fixed;
-    top: 0;
-    left: 0;
 }
