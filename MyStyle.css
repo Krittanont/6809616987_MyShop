@@ -40,7 +40,7 @@ body {
 }
 
 .logo a {
-    color: #f9d579; text-decoration: none; font-weight: bold;
+    color: #f9d579; text-decoration: none;
 }
 
 h1 {
@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Philosopher", sans-serif;
     color: #f9d579;
     font-size: 20px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
