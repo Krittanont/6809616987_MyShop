@@ -5,14 +5,50 @@ body {
     justify-content: center;
 }
 
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Philosopher", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    z-index: 10;
+    background: #c3002f;
+    backdrop-filter: blur(9px);
+    color: #ffffff;
+}
+
+.nav a {
+    color: #f9d579;
+    font-family: "Philosopher", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1.9rem;
+    position: relative;
+    transition: all 0.5s ease
+}
+
+.nav a:hover {
+    color: #000000; width: 100%;
+}
+
+.logo {
+    font-size: 50pt; line-height: 0.7; 
+}
+
+.logo a {
+    color: #f9d579; text-decoration: none; font-weight: bold;
+}
+
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Philosopher", sans-serif;
     color: #c3002f;
     font-size: 45pt;
     margin: 10px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 4px solid #c3002f;
-    border-radius: 25px;
     text-align: center;
     padding: 20px 20px;
 }
@@ -166,6 +202,7 @@ p3 {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin: 45pt;
 }
 
 .footer {
@@ -193,7 +230,7 @@ a {
     border: 2px solid #c3002f; 
     border-radius: 100px;
     padding: 8px;
-    transition: color 0.3s ease;
+    transition: all 0.7s ease;
 }
 
 .sad:hover {
@@ -296,4 +333,10 @@ a {
 .emptext {
     font-weight: bold;
     font-size: 23px;
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
