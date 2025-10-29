@@ -3,6 +3,7 @@ body {
     text-align: center;
     padding: 20px;
     justify-content: center;
+    margin-top: 130px;
 }
 
 .site-header {
@@ -12,28 +13,27 @@ body {
     font-family: "Philosopher", sans-serif;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1rem;
     z-index: 10;
-    backdrop-filter: blur(9px);
-    color: #ffffff;
+    background-color: #c3002f;
 }
 
 .nav a {
-    color: #c3002f;
+    color: #f9d579;
     font-family: "Philosopher", sans-serif;
-    font-size: 20px;
-    border-radius: 20px; padding-left: 10px; border: 1px solid #c3002f;
+    font-size: 18px;
+    border-radius: 20px; padding-left: 10px; border: 1px solid #f9d579;
     font-weight: bolder; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;
     text-decoration: none;
     margin-left: 1.9rem;
     position: relative;
-    transition: all 0.5s ease
+    transition: all 0.5s ease ;
 }
 
 .nav a:hover {
-    color: #f5e1c8; width: 100%; background-color: #c3002f; border-radius: 20px; padding-left: 10px;
+    color: #c3002f; width: 100%; background-color: #f9d579; border-radius: 20px; padding-left: 10px;
     font-weight: bolder; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;
 }
 
@@ -42,7 +42,15 @@ body {
 }
 
 .logo a {
-    color: #c3002f; text-decoration: none; 
+    color: #f9d579; text-decoration: none; 
+}
+
+.header-top {
+    padding-bottom: 5px;
+}
+
+.header-bottom {
+    padding-top: 30px;
 }
 
 h1 {
@@ -70,7 +78,7 @@ h2 {
 
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #f9d579;
+    color: #f5e1c8;
     font-size: 20px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
     font-style: oblique;
@@ -211,6 +219,7 @@ p3 {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .ctu {
