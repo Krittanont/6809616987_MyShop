@@ -278,7 +278,7 @@ a {
     padding: 5px;
     outline: 2px solid #c3002f;
     outline-offset: 5px;
-    width: 480px ;
+    width: auto;
     height: 360px ;
     border-radius: 30px;
     border: 2px solid#c3002f;
