@@ -1,13 +1,11 @@
 body {
     background-color: #f5e1c8;
     text-align: center;
-    padding: 20px;
     justify-content: center;
-    margin-top: 130px;
 }
 
 .site-header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     font-family: "Philosopher", sans-serif;
@@ -15,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 0.8rem 0.8rem;
     z-index: 10;
     background-color: #c3002f;
 }
@@ -24,7 +22,7 @@ body {
     color: #f9d579;
     font-family: "Philosopher", sans-serif;
     font-size: 18px;
-    border-radius: 20px; padding-left: 10px; border: 1px solid #f9d579;
+    border-radius: 20px; padding-left: 10px; background-color: rgba(0, 0, 0, 0.1);
     font-weight: bolder; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;
     text-decoration: none;
     margin-left: 1.9rem;
