@@ -2,6 +2,9 @@ body {
     background-color: #f5e1c8;
     text-align: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .hero {
