@@ -9,28 +9,18 @@ body {
 
 .hero {
     position: relative;
-    height: 89vh;
+    height: 90vh;
     background-image: url(resources/Siamscape_\(III\).jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 60pt;
-    font-family: "B612", sans-serif;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero p1 {
-    color: #c3002f ; font-size: 20vw;
-}
-
-.hero span {
-    font-size: 50px;
-    text-align: center;
-    display: block;
-    color: #4298b5;
+    color: #c3002f ; font-size: 20vw; font-family: "Philosopher", sans-serif;;
 }
 
 .site-header {
@@ -43,7 +33,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.8rem 0rem;
-
     background-color: #c3002f;
 }
 
@@ -244,7 +233,7 @@ p3 {
 
 .footer {
     width: 100%;
-        bottom: 0;
+    bottom: 0;
         left: 0;
         background-color: #c3002f;
         text-align: center;
@@ -271,7 +260,6 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
     background-color: #c3002f;
-    border: 2px solid #c3002f; 
     border-radius: 100px;
     padding: 8px;
     transition: all 0.7s ease;
